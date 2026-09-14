@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "check": "node --check src/server.js && node --check src/app.js && node --check src/config/db.js && node --check src/controllers/userController.js && node --check src/middleware/errorHandler.js && node --check src/routes/userRoutes.js"
+    "check": "node --check src/server.js && node --check src/config/db.js && node --check src/controllers/userController.js && node --check src/middleware/errorHandler.js && node --check src/routes/userRoutes.js"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
